@@ -7,7 +7,7 @@ jobs:
   generate-commit-list:
     runs-on: ubuntu-latest
     steps:
-      - uses: dequelabs/axe-api-team-public/.github/actions/generate-commit-list-v1@main
+      - uses: dequelabs/axe-api-team-public/.github/actions/generate-commit-list-v1@0972c7f2e4fdd220add52dab37911ad55d999572
         id: generate-commit-list
         with:
           base: master
